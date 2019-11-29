@@ -102,6 +102,14 @@ public class Main1 {
 			}
 			
 			System.out.println(attacc + ";" + protecc);
+			
+			
+			if(attacc > 3*contatosNG.size()+1) {
+				System.out.println("Atacar");
+			}else {
+				System.out.println("Recuar");
+			}
+			
 			// Se sim, como faço o algoritmo considerando a equação n >= 3f+1?
 		
 		
